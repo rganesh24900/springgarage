@@ -2,7 +2,6 @@ package com.example.Garage.Garage1.ServiceImplementation;
 
 import com.example.Garage.Garage1.Entities.Vehicle;
 import com.example.Garage.dao.VehiclesDao;
-import lombok.Builder;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -12,40 +11,80 @@ import java.util.List;
 @Slf4j
 @org.springframework.stereotype.Service
 public class Service {
-@Autowired
-private VehiclesDao dao;
+    @Autowired
+    private VehiclesDao dao;
+    @Autowired
+    Vehicle vehicle;
 
-List<Vehicle> list;
+
+    public List<Vehicle> getVehicles() {
 
 
-public List<Vehicle> getVehicles(){
+        return dao.findAll();
 
-    return dao.findAll();
+    }
 
-}
+    public Vehicle getVehicle(int id) {
+        return dao.getById(id);
+    }
 
-public Vehicle getVehicle(int id){
-    return dao.getById(id);
-}
+    public Vehicle addVehicle(Vehicle vehicle) {
 
-public Vehicle addVehicle(Vehicle v){
-     dao.save(v);
-return v;
-}
+        Vehicle vehicle1 = new Vehicle();
 
-public Vehicle updateRepairingVehicle(int id){
-    Vehicle vehicle = dao.getById(id);
-    vehicle.setStatus("Repairing");
-    dao.save(vehicle);
+        for (int i = 0; i <= 10; i++) {
 
-    return vehicle;
-}
-public Vehicle updateRepairedVehicle(int id){
-    Vehicle repairedVehicle = dao.getById(id);
-    repairedVehicle.setStatus("Repaired");
-    dao.save(repairedVehicle);
-    return repairedVehicle;
-}
+
+            if (vehicle.getName().equals("Car")) {
+
+
+                vehicle1.setName("Car");
+                vehicle1.setPrice(500);
+                vehicle1.setStatus("In Garage");
+            } else if (vehicle.getName().equals("Bike")) {
+                vehicle1.setName("Bike");
+                vehicle1.setPrice(200);
+                vehicle1.setStatus("In Garage");
+            }
+
+
+            dao.save(vehicle1);
+            i++;
+        }
+        return vehicle1;
+
+
+    }
+
+
+    public Vehicle updateRepairingVehicle(int id) {
+        int i = 0;
+        while (i < 2) {
+            Vehicle vv = dao.getById(id);
+            this.vehicle.setId(id);
+            this.vehicle.setStatus("Repairing");
+            this.vehicle.setName(vv.getName());
+            this.vehicle.setPrice(vv.getPrice());
+            dao.save(this.vehicle);
+            try {
+                Thread.sleep(10000);
+            } catch (InterruptedException e) {
+                log.info("An error occured %s", e);
+            }
+
+            this.vehicle.setStatus("Repaired");
+            dao.save(this.vehicle);
+            i++;
+        }
+        return this.vehicle;
+
+    }
+
+    public float repairedVehicles() {
+        return dao.repairedVehicles();
+    }
+
+
 
 
 }

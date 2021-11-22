@@ -1,27 +1,33 @@
 package com.example.Garage.Garage1.Entities;
 
-import jdk.jfr.DataAmount;
 import lombok.Builder;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Component;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 
-
+@Component
 @Entity
 @Data
 @RequiredArgsConstructor
 public class Vehicle {
 
 
+
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
+
     @Column
+    @NotNull
     private String name;
+
     @Column
+    @NotNull
     private int price;
+
     @Column
     private String status;
 
