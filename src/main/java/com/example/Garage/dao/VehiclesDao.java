@@ -25,4 +25,6 @@ public interface VehiclesDao extends JpaRepository<Vehicle,Integer> {
     float numberOfBikes();
 
 
+
+
 }
