@@ -7,6 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.persistence.criteria.CriteriaBuilder;
 import javax.validation.Valid;
 import java.util.List;
 
@@ -43,8 +44,18 @@ public class Controller {
 
     }
 
+    @PutMapping("vehiclelist/{id1}/id2}")
+    public List<Vehicle> updateRepairingVehicles(@PathVariable String id1,@PathVariable String id2){
+        return this.imp.updateRepairingVehicles(Integer.parseInt(id1),Integer.parseInt(id2));
+    }
+
     @GetMapping("/vehiclelist/accountbalance")
-    public float repairedVehicles(){
-       return imp.repairedVehicles();
+    public String repairedVehicles(){
+       return ("The account balance is :"+imp.repairedVehicles());
+    }
+
+    @GetMapping("vehiclelist/repairedvehiclessummary")
+    public String repairedVehiclesSummmary(){
+        return ("Cars = "+imp.repairedVehiclesSummary().get("Cars")+" : cost = "+imp.repairedVehiclesSummary().get("Car's Cost")+", Bikes = "+imp.repairedVehiclesSummary().get("Bikes")+" : cost = "+imp.repairedVehiclesSummary().get("Bike's Cost"));
     }
 }
