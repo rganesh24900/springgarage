@@ -1,63 +1,110 @@
-2021-11-23 15:54:17,519 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 13196 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
-2021-11-23 15:54:17,519 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
-2021-11-23 15:54:17,519 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2021-11-23 15:54:24,907 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 8.133 seconds (JVM running for 9.531)
-2021-11-23 15:57:41,147 INFO com.example.Garage.Garage1.Controller.Controller [http-nio-8080-exec-6] The vehicles are:[Vehicle(id=1, name=Bike, price=200, status=Repaired), Vehicle(id=2, name=Car, price=500, status=Repaired), Vehicle(id=3, name=Bike, price=200, status=In Garage), Vehicle(id=4, name=Car, price=500, status=In Garage)]
-2021-11-23 16:01:27,677 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 10836 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
-2021-11-23 16:01:27,677 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
-2021-11-23 16:01:27,677 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2021-11-23 16:01:34,736 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 8.0 seconds (JVM running for 9.027)
-2021-11-23 16:20:34,182 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 2176 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
-2021-11-23 16:20:34,182 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
-2021-11-23 16:20:34,182 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2021-11-23 16:20:40,944 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 7.481 seconds (JVM running for 8.6)
-2021-11-23 16:23:41,890 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 8188 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
-2021-11-23 16:23:41,898 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
-2021-11-23 16:23:41,898 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2021-11-23 16:23:48,290 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 7.142 seconds (JVM running for 8.132)
-2021-11-23 18:52:32,529 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 9580 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
-2021-11-23 18:52:32,529 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
-2021-11-23 18:52:32,534 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2021-11-23 18:57:09,649 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 11772 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
-2021-11-23 18:57:09,666 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
-2021-11-23 18:57:09,666 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2021-11-23 18:57:16,820 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 7.841 seconds (JVM running for 8.83)
-2021-11-23 19:06:35,202 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 10520 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
-2021-11-23 19:06:35,209 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
-2021-11-23 19:06:35,209 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2021-11-23 19:06:42,335 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 7.866 seconds (JVM running for 9.013)
-2021-11-23 19:08:12,409 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 11640 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
-2021-11-23 19:08:12,410 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
-2021-11-23 19:08:12,410 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2021-11-23 19:09:59,309 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 8308 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
-2021-11-23 19:09:59,314 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
-2021-11-23 19:09:59,315 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2021-11-23 19:10:06,255 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 7.682 seconds (JVM running for 8.685)
-2021-11-23 19:13:14,701 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 1264 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
-2021-11-23 19:13:14,703 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
-2021-11-23 19:13:14,706 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2021-11-23 19:24:00,168 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 2160 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
-2021-11-23 19:24:00,172 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
-2021-11-23 19:24:00,173 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2021-11-23 19:24:07,508 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 8.15 seconds (JVM running for 9.747)
-2021-11-23 19:27:40,935 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplicationTests using Java 17.0.1 on SMT-LAP-154 with PID 13984 (started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
-2021-11-23 19:27:40,937 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
-2021-11-23 19:27:40,938 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2021-11-23 19:27:48,285 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplicationTests in 7.778 seconds (JVM running for 9.587)
-2021-11-23 19:28:02,669 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 7292 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
-2021-11-23 19:28:02,669 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
-2021-11-23 19:28:02,669 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2021-11-23 19:28:09,521 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 7.588 seconds (JVM running for 8.71)
-2021-11-23 19:32:11,106 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 11700 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
-2021-11-23 19:32:11,111 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
-2021-11-23 19:32:11,112 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2021-11-23 19:32:18,199 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 7.806 seconds (JVM running for 8.899)
-2021-11-23 19:37:40,576 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 14012 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
-2021-11-23 19:37:40,588 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
-2021-11-23 19:37:40,588 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2021-11-23 19:37:49,416 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 9.612 seconds (JVM running for 10.624)
-2021-11-23 19:38:22,163 INFO com.example.Garage.Garage2.Controller.LargeVehicleController [http-nio-8080-exec-4] The vehicles are:[]
-2021-11-23 19:39:48,116 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 10032 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
-2021-11-23 19:39:48,123 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
-2021-11-23 19:39:48,124 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2021-11-23 19:39:55,265 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 7.862 seconds (JVM running for 8.891)
+2021-11-26 08:02:59,025 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 6776 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
+2021-11-26 08:02:59,038 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
+2021-11-26 08:02:59,038 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-26 08:03:08,624 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 10.654 seconds (JVM running for 12.045)
+2021-11-26 08:04:59,746 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 7836 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
+2021-11-26 08:04:59,763 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
+2021-11-26 08:04:59,763 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-26 08:05:08,301 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 9.883 seconds (JVM running for 11.388)
+2021-11-26 08:10:41,779 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 8204 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
+2021-11-26 08:10:41,789 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
+2021-11-26 08:10:41,789 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-26 08:10:48,833 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 7.868 seconds (JVM running for 8.921)
+2021-11-26 08:11:50,068 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 11160 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
+2021-11-26 08:11:50,071 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
+2021-11-26 08:11:50,071 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-26 08:11:57,092 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 7.819 seconds (JVM running for 8.836)
+2021-11-26 08:34:07,920 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 6928 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
+2021-11-26 08:34:07,932 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
+2021-11-26 08:34:07,932 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-26 08:34:15,591 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 8.443 seconds (JVM running for 9.505)
+2021-11-26 08:36:44,337 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 4528 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
+2021-11-26 08:36:44,337 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
+2021-11-26 08:36:44,337 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-26 08:36:51,526 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 8.023 seconds (JVM running for 9.207)
+2021-11-26 09:01:56,405 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 7708 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
+2021-11-26 09:01:56,405 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
+2021-11-26 09:01:56,405 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-26 09:02:03,830 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 8.277 seconds (JVM running for 9.44)
+2021-11-26 09:09:47,379 INFO com.example.Garage.Garage1.Controller.Controller [http-nio-8080-exec-6] The vehicles are:[FAILED toString()]
+2021-11-26 11:50:00,176 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 8352 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
+2021-11-26 11:50:00,190 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
+2021-11-26 11:50:00,191 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-26 11:50:07,960 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 8.61 seconds (JVM running for 10.048)
+2021-11-26 11:53:16,768 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 8516 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
+2021-11-26 11:53:16,773 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
+2021-11-26 11:53:16,773 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-26 11:53:24,012 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 8.065 seconds (JVM running for 9.203)
+2021-11-26 11:58:44,748 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 9132 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
+2021-11-26 11:58:44,748 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
+2021-11-26 11:58:44,748 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-26 11:58:51,832 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 7.905 seconds (JVM running for 9.217)
+2021-11-26 13:16:50,541 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 12376 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
+2021-11-26 13:16:50,544 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
+2021-11-26 13:16:50,545 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-26 13:16:58,373 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 8.662 seconds (JVM running for 9.751)
+2021-11-26 13:22:57,875 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 5892 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
+2021-11-26 13:22:57,878 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
+2021-11-26 13:22:57,879 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-26 13:23:04,813 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 7.661 seconds (JVM running for 8.676)
+2021-11-26 15:23:37,714 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 8372 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
+2021-11-26 15:23:37,714 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
+2021-11-26 15:23:37,717 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-26 15:23:46,484 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 9.69 seconds (JVM running for 11.202)
+2021-11-26 15:30:11,836 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 10680 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
+2021-11-26 15:30:11,836 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
+2021-11-26 15:30:11,836 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-26 15:30:19,427 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 8.373 seconds (JVM running for 9.812)
+2021-11-26 15:38:54,752 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 1636 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
+2021-11-26 15:38:54,765 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
+2021-11-26 15:38:54,765 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-26 15:39:01,784 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 7.826 seconds (JVM running for 9.094)
+2021-11-26 15:43:05,085 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 11300 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
+2021-11-26 15:43:05,088 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
+2021-11-26 15:43:05,088 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-26 15:43:12,365 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 8.021 seconds (JVM running for 9.233)
+2021-11-26 15:46:08,619 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 7828 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
+2021-11-26 15:46:08,624 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
+2021-11-26 15:46:08,624 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-26 15:46:16,908 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 8.957 seconds (JVM running for 10.027)
+2021-11-26 16:18:35,473 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 11388 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
+2021-11-26 16:18:35,505 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
+2021-11-26 16:18:35,507 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-26 16:18:47,940 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 13.631 seconds (JVM running for 16.342)
+2021-11-26 16:24:59,178 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 6428 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
+2021-11-26 16:24:59,182 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
+2021-11-26 16:24:59,183 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-26 16:25:10,191 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 12.066 seconds (JVM running for 13.597)
+2021-11-26 16:27:36,673 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplicationTests using Java 17.0.1 on SMT-LAP-154 with PID 13284 (started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
+2021-11-26 16:27:36,676 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
+2021-11-26 16:27:36,684 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-26 16:27:51,718 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplicationTests in 15.568 seconds (JVM running for 17.882)
+2021-11-26 16:28:41,183 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 4916 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
+2021-11-26 16:28:41,185 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
+2021-11-26 16:28:41,186 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-26 16:28:51,699 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 11.491 seconds (JVM running for 13.436)
+2021-11-26 16:31:37,990 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 8664 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
+2021-11-26 16:31:37,994 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
+2021-11-26 16:31:37,994 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-26 16:31:46,793 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 9.852 seconds (JVM running for 11.402)
+2021-11-26 16:35:08,381 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 804 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
+2021-11-26 16:35:08,391 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
+2021-11-26 16:35:08,392 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-26 16:35:17,626 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 10.2 seconds (JVM running for 11.877)
+2021-11-26 17:38:10,954 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 11276 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
+2021-11-26 17:38:10,954 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
+2021-11-26 17:38:10,954 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-26 17:38:20,593 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 10.604 seconds (JVM running for 11.868)
+2021-11-26 17:52:48,528 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 2372 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
+2021-11-26 17:52:48,537 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
+2021-11-26 17:52:48,537 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-26 17:52:56,926 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 9.42 seconds (JVM running for 10.668)
+2021-11-26 17:53:30,313 INFO com.example.Garage.Garage1.Controller.Controller [http-nio-8080-exec-3] Data's of summary in map {Cars=1.0, Bikes=1.0, Bike's Cost=200.0, Car's Cost=500.0}
+2021-11-26 18:03:32,860 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 5236 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
+2021-11-26 18:03:32,866 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
+2021-11-26 18:03:32,866 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-26 18:03:40,581 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 8.76 seconds (JVM running for 9.934)
+2021-11-26 19:46:11,078 INFO org.springframework.boot.StartupInfoLogger [main] Starting GarageApplication using Java 17.0.1 on SMT-LAP-154 with PID 11636 (C:\Users\Ganesh.Rajamani\Downloads\Garage\target\classes started by Ganesh.Rajamani in C:\Users\Ganesh.Rajamani\Downloads\Garage)
+2021-11-26 19:46:11,084 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.7, Spring v5.3.13
+2021-11-26 19:46:11,084 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-26 19:46:18,355 INFO org.springframework.boot.StartupInfoLogger [main] Started GarageApplication in 8.013 seconds (JVM running for 9.099)
